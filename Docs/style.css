@@ -32,10 +32,6 @@
     
     color: var(--secondary);
 }
-.textWhite--ancor{
-    padding-left: 2px;
-    text-decoration: none;
-}
 .textWhite:hover{
     color:var(--black) ;
 }
@@ -680,4 +676,8 @@ grid-area: section--card--1;
     .aside--contactenos{
         width: 90%;
     }
+}
+.textWhite--ancor{
+    padding-left: 2px;
+    text-decoration: none;
 }
