@@ -29,7 +29,12 @@
     color: var(--secondary);
 }
 .textWhite{
+    
     color: var(--secondary);
+}
+.textWhite--ancor{
+    padding-left: 2px;
+    text-decoration: none;
 }
 .textWhite:hover{
     color:var(--black) ;
