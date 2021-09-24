@@ -4,33 +4,33 @@ const modal=document.querySelector('.modal')
 const img_slide=document.querySelector('.slideShow img')
 const galeria=document.getElementsByClassName('img2')
 let arreglo=[
-    {img:'/Multimedia/Imagenes/img0.JPG'},
+    {img:'/Multimedia/Imagenes/img0.jpg'},
     {img:'/Multimedia/Imagenes/img1.JPG'},
-    {img:'/Multimedia/Imagenes/img2.JPG'},
-    {img:'/Multimedia/Imagenes/img3.JPG'},
-    {img:'/Multimedia/Imagenes/img4.JPG'},
-    {img:'/Multimedia/Imagenes/img5.JPG'},
-    {img:'/Multimedia/Imagenes/img6.JPG'},
-    {img:'/Multimedia/Imagenes/img7.JPG'},
-    {img:'/Multimedia/Imagenes/img8.JPG'},
-    {img:'/Multimedia/Imagenes/img9.JPG'},
-    {img:'/Multimedia/Imagenes/img10.JPG'},
-    {img:'/Multimedia/Imagenes/img11.JPG'},
-    {img:'/Multimedia/Imagenes/img12.JPG'},
-    {img:'/Multimedia/Imagenes/img13.JPG'},
-    {img:'/Multimedia/Imagenes/img14.JPG'},
-    {img:'/Multimedia/Imagenes/img15.JPG'},
-    {img:'/Multimedia/Imagenes/img16.JPG'},
-    {img:'/Multimedia/Imagenes/img17.JPG'},
-    {img:'/Multimedia/Imagenes/img18.JPG'},
-    {img:'/Multimedia/Imagenes/img19.JPG'},
-    {img:'/Multimedia/Imagenes/img20.JPG'},
-    {img:'/Multimedia/Imagenes/img21.JPG'},
-    {img:'/Multimedia/Imagenes/img22.JPG'},
-    {img:'/Multimedia/Imagenes/img23.JPG'},
-    {img:'/Multimedia/Imagenes/img24.JPG'},
+    {img:'/Multimedia/Imagenes/img2.jpg'},
+    {img:'/Multimedia/Imagenes/img3.jpg'},
+    {img:'/Multimedia/Imagenes/img4.jpg'},
+    {img:'/Multimedia/Imagenes/img5.jpg'},
+    {img:'/Multimedia/Imagenes/img6.jpg'},
+    {img:'/Multimedia/Imagenes/img7.jpg'},
+    {img:'/Multimedia/Imagenes/img8.jpg'},
+    {img:'/Multimedia/Imagenes/img9.jpg'},
+    {img:'/Multimedia/Imagenes/img10.jpg'},
+    {img:'/Multimedia/Imagenes/img11.jpg'},
+    {img:'/Multimedia/Imagenes/img12.jpg'},
+    {img:'/Multimedia/Imagenes/img13.jpg'},
+    {img:'/Multimedia/Imagenes/img14.jpg'},
+    {img:'/Multimedia/Imagenes/img15.jpg'},
+    {img:'/Multimedia/Imagenes/img16.jpg'},
+    {img:'/Multimedia/Imagenes/img17.jpg'},
+    {img:'/Multimedia/Imagenes/img18.jpg'},
+    {img:'/Multimedia/Imagenes/img19.jpg'},
+    {img:'/Multimedia/Imagenes/img20.jpg'},
+    {img:'/Multimedia/Imagenes/img21.jpg'},
+    {img:'/Multimedia/Imagenes/img22.jpg'},
+    {img:'/Multimedia/Imagenes/img23.jpg'},
+    {img:'/Multimedia/Imagenes/img24.jpg'},
 ]
-console.log(arreglo.length)
+
 slide.addEventListener('click',function (event) {
   let atras=slide.querySelector('.atras'),
   adelante=slide.querySelector('.adelante'),
@@ -67,8 +67,4 @@ slide.addEventListener('click',function (event) {
 document.querySelector('.btn-cerrar').addEventListener('click',()=>{
  modal.style.opacity=0
  modal.style.visibility='hidden'
-})
-document.querySelector('.modal').addEventListener('click',()=>{
-    modal.style.opacity=0
-    modal.style.visibility='hidden'
 })

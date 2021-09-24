@@ -57,6 +57,7 @@
     width:35px;
 }
 .frist_letter{
+    padding-top: -1px;
     padding-left: 20px;
  }
 .container-fluid{
@@ -521,7 +522,7 @@ grid-area: section--card--1;
     padding: 0 4px;
 }
 .columna img{
-    margin-top: 8px;
+    margin-top: 15px;
     vertical-align: middle;
     width: 100%;
     filter: grayscale();
@@ -561,8 +562,8 @@ grid-area: section--card--1;
         margin-top: 55px;
     }
     .columna{
-        flex: 20%;
-        max-width:20%;
+        flex: 100%;
+        max-width:100%;
     }
     .section__h2{
         margin-top: 40px;
@@ -580,6 +581,9 @@ grid-area: section--card--1;
     }
 }
 @media (min-width: 1024px){
+   .main--90{
+       margin-top: 130px;
+   }
    #iframe{
        width: 80%;
        margin-left: 80px;

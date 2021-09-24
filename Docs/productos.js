@@ -59,10 +59,6 @@
     modal.style.opacity=0
     modal.style.visibility='hidden'
    })
-    document.querySelector('.modal').addEventListener('click',()=>{
-        modal.style.opacity=0
-        modal.style.visibility='hidden'
-    })
 
  })();
 
